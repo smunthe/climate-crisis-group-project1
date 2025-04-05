@@ -7,10 +7,22 @@
     <title>Biodiversity Helps</title>
 </head>
 <body>
-    <div id = "navbarSticky">
-        <button type="menu">
-            <img src="/assets/whiteHamburger.png" alt = "buttonpng" border= "0" /></button>
+
+    <div class = "navbarSticky">
+    
+        <input type="image" id="menuButton" src="assets/whiteHamburger.png" onclick="menuDisplay()"/>
+         
+        <div id = "menu">
+            <a href = "#">Home</a>
+            <a href ="#">About</a>
+            <a href = "#">Contact</a>
+        </div>
+
+
+
+
     </div>
+
     <div class="plants"> 
         <div id ="floridaYew"> 
             <p>The Florida Yew is often found on privately owned land and in danger due to endanger species laws 
@@ -45,6 +57,6 @@
 
 
     </div>
-    
+    <script src = "climateCrisis.js"></script>
 </body>
 </html>
