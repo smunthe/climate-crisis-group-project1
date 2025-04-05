@@ -1,5 +1,5 @@
 
-#navbarSticky {
+.navbarSticky {
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -7,4 +7,29 @@
     margin: 0;
     padding: 0;
 }
+
+.navbarSticky #menuButton {
+    height: auto;
+    width: auto;
+
+}
+
+.navbarSticky a {
+    display:block;
+    padding: 8px 16px;
+    text-decoration: none;
+    outline-color: black;
+    outline:auto;
+}
+
+.navbarSticky a:hover{
+    background-color: brown;
+    color:black;
+
+}
+
+.navbarSticky #menu{
+    display:none;
+}
+
 

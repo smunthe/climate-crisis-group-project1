@@ -7,10 +7,15 @@
     <title>Biodiversity Helps</title>
 </head>
 <body>
-    <div id = "navbarSticky">
-        <button type="menu"> 
-            <img src="/assets/whiteHamburger.png" alt = "buttonpng" bordor = "0"/> 
-        </button>
+    <div class = "navbarSticky">
+    
+        <input type="image" id="menuButton" src="assets/whiteHamburger.png" onclick="menuDisplay()"/>
+         
+        <div id = "menu">
+            <a href = "#">Home</a>
+            <a href ="#">About</a>
+            <a href = "#">Contact</a>
+        </div>
     </div>
 
     <div class="plants"> 
@@ -88,5 +93,6 @@
             </p>
         </div>
     </div>
+    <script src = "climateCrisis.js"></script>
 </body>
 </html>
