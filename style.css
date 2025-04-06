@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 .container {
     display:flex;
     justify-content: center;
@@ -37,7 +38,7 @@ body {
 
 .donate {
     background-color: #710019;
-    color: white;
+    color: #f1ced4 ;
     position: absolute;
     margin-left: auto;
     display:block;
@@ -95,6 +96,7 @@ body {
     max-width:100%;
     height:auto;
 }
+
 .slideshow-container {
     top: 15px;
     bottom: 15px;
@@ -123,14 +125,14 @@ body {
 }
 
 .species button {
-    font-size: 16px;
     background-color: #391306;
-    color: white;
+    color: #fb8da0 ;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    font-family: "Urbanist", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .species button:hover {
@@ -168,26 +170,17 @@ p {
 }
 
 #plantButton {
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
     background-image: url(assets/plantBtn.png);
 }
 
 #insectButton {
-    font-size: larger;
-    font-weight: bolder;
     background-image: url(assets/insectBtn.png);
 }
 
 #mammalButton {
-    font-size: larger;
-    font-weight: bolder;
     background-image: url(assets/mammalBtn.png);
 }
 
 #birdButton {
-    font-size: larger;
-    font-weight: bolder;
     background-image: url(assets/birdBtn.png);
 }
