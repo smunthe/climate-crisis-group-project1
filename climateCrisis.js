@@ -9,7 +9,7 @@ function menuDisplay() {
 }
 
 const images = [
-  "assets/slide6.jpg",
+  "assets/slide1.jpg",
   "assets/slide2.jpg",
   "assets/slide3.jpg",
   "assets/slide4.jpg",
