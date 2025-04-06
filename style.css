@@ -118,7 +118,6 @@ body {
     flex-direction: column;
     justify-content: center; 
     margin-top: 50px;
-    margin-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
     gap: 10px;
@@ -187,7 +186,10 @@ body {
 }
 
 footer {
-    display:block;
+    /* display:block; */
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
     background-color: #391306;
     color: #fb8da0;
 }
@@ -226,4 +228,34 @@ footer {
     }
 
     
+.footer p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffb3c1;
+}
+
+.footer-links img {
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.footer-links img:hover {
+    transform: scale(1.1);
 }
