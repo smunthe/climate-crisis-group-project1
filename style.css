@@ -1,25 +1,71 @@
 
+.container {
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    height:100vh;
+    
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #f1ced4 ;
+    height: 100vh;
+    
+}
+
 .navbarSticky {
     position: sticky;
     top: 0;
-    overflow: hidden;
-    background-color: pink;
+    z-index:1000;
+    background-color: #391306;
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+
+
 }
 
-.navbarSticky #menuButton {
-    height: auto;
-    width: auto;
-
-}
-
-.navbarSticky a {
+.donate {
+    background-color: #710019;
+    color: white;
+    position: absolute;
+    margin-left: auto;
     display:block;
-    padding: 8px 16px;
+    right: 80px;
+
+}
+
+#menuButton {
+    position: absolute;
+    left:20px
+}
+
+#menu {
+    display:block;
+    position:absolute;
+    top:60px;
+    left:0;
+    width:100%;
+    flex-direction: column;
+    padding:10px 0;
+    text-align: center;
+    background-color: #391306;
+    
+}
+
+#menu a {
+    display:block;
+    padding:12px 0;
+    color:white;
     text-decoration: none;
-    outline-color: black;
-    outline:auto;
+    border-top: 1px solid black;
 }
 
 .navbarSticky a:hover{
@@ -32,4 +78,25 @@
     display:none;
 }
 
+.navLogo {
+    height: 100px;
 
+
+}
+
+.slideshow-container {
+    top: 15px;
+    max-width: 300px;
+    margin:auto;
+    position:relative;
+    cursor: url('assets/flower.png'), auto;
+    outline-color: black;
+    outline: auto;
+    border-radius: 10px;
+}
+
+.slideshow-container img {
+    width:100%;
+    height: auto;
+    transition: all 0.3s ease;
+}
