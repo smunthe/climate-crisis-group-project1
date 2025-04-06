@@ -78,10 +78,16 @@ body {
     display:none;
 }
 
-.navLogo {
-    height: 100px;
-
-
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width:100%;
+    height:auto;
+}
+@media screen {
+    
 }
 
 .slideshow-container {
@@ -90,13 +96,15 @@ body {
     margin:auto;
     position:relative;
     cursor: url('assets/flower.png'), auto;
-    outline-color: black;
+    /* outline-color: black;
     outline: auto;
     border-radius: 10px;
+    background-color: #73a673; */
 }
 
 .slideshow-container img {
     width:100%;
     height: auto;
     transition: all 0.3s ease;
+    border-radius: 10px;
 }
