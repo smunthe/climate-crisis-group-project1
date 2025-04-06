@@ -147,6 +147,17 @@ body {
     flex-direction: row;
     gap: 15px;
     width: 100%;
+
+}
+
+.plants img, .insects img, .mammals img, .birds img {
+    max-width:150px;
+    max-height: 300px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
 }
 
 .species .plants, .species .insects, .species .mammals, .species .birds{
@@ -159,4 +170,23 @@ h2 {
 }
 p {
     width: auto;
+}
+
+#plantButton {
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-image: url(assets/plantBtn.png);
+}
+
+#insectButton {
+    background-image: url(assets/insectBtn.png);
+}
+
+#mammalButton {
+    background-image: url(assets/mammalBtn.png);
+}
+
+#birdButton {
+    background-image: url(assets/birdBtn.png);
 }
