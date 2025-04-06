@@ -175,18 +175,23 @@ p {
 #plantButton {
     font-size: larger;
     font-weight: bolder;
-    color: white;
     background-image: url(assets/plantBtn.png);
 }
 
 #insectButton {
+    font-size: larger;
+    font-weight: bolder;
     background-image: url(assets/insectBtn.png);
 }
 
 #mammalButton {
+    font-size: larger;
+    font-weight: bolder;
     background-image: url(assets/mammalBtn.png);
 }
 
 #birdButton {
+    font-size: larger;
+    font-weight: bolder;
     background-image: url(assets/birdBtn.png);
 }
