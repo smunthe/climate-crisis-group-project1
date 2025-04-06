@@ -184,3 +184,9 @@ p {
 #birdButton {
     background-image: url(assets/birdBtn.png);
 }
+
+footer {
+    display:block;
+    background-color: #391306;
+    color: #fb8da0;
+}
