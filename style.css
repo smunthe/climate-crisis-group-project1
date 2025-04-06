@@ -10,7 +10,7 @@
 * {
     margin:0;
     padding:0;
-    
+
 }
 body {
     background-color: #f1ced4 ;
@@ -19,8 +19,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
-    
 }
 
 .navbarSticky {
@@ -104,19 +102,61 @@ body {
 
 .slideshow-container {
     top: 15px;
+    bottom: 15px;
     max-width: 300px;
     margin:auto;
     position:relative;
     cursor: url('assets/flower.png'), auto;
-    /* outline-color: black;
-    outline: auto;
-    border-radius: 10px;
-    background-color: #73a673; */
 }
 
 .slideshow-container img {
     width:100%;
     height: auto;
     transition: all 0.3s ease;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+.species {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.species button {
+    font-size: 16px;
+    background-color: #391306;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+
+.species button:hover {
+    background-color: #710019;
+}
+
+.plants, .insects, .mammals, .birds {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+}
+
+.species .plants, .species .insects, .species .mammals, .species .birds{
+    display: none;
+}
+
+h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+p {
+    width: auto;
 }

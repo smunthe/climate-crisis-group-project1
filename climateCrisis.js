@@ -5,7 +5,50 @@ function menuDisplay() {
     } else {
         x.style.display = "block";
     }
+}
 
+function plantsDisplay() {
+  var s = document.getElementsByClassName("plants");
+  for (var i = 0; i < s.length; i++) {
+    if (s[i].style.display === "flex") {
+      s[i].style.display = "none";
+    } else {
+      s[i].style.display = "flex";
+    }
+  }
+}
+
+function insectsDisplay() {
+  var s = document.getElementsByClassName("insects");
+  for (var i = 0; i < s.length; i++) {
+    if (s[i].style.display === "flex") {
+      s[i].style.display = "none";
+    } else {
+      s[i].style.display = "flex";
+    }
+  }
+}
+
+function mammalsDisplay() {
+  var s = document.getElementsByClassName("mammals");
+  for (var i = 0; i < s.length; i++) {
+    if (s[i].style.display === "flex") {
+      s[i].style.display = "none";
+    } else {
+      s[i].style.display = "flex";
+    }
+  }
+}
+
+function birdsDisplay() {
+  var s = document.getElementsByClassName("birds");
+  for (var i = 0; i < s.length; i++) {
+    if (s[i].style.display === "flex") {
+      s[i].style.display = "none";
+    } else {
+      s[i].style.display = "flex";
+    }
+  }
 }
 
 const images = [
