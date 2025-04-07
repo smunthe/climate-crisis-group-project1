@@ -47,6 +47,20 @@ Users can click on category buttons to learn more about these species, view imag
 ├── climateCrisis.js    # JS for interactivity (toggle displays, slideshow)
 └── assets/             # Image assets (species photos, logos, etc.)
 ```
+---
+## 📥 Cloning the Repository 
+To run this project locally, follow these steps: 
+1. Open your terminal or command prompt
+2. Clone the repo:
+
+```bash
+git clone https://github.com/smunthe/climate-crisis-group-project1.git
+```
+3. Navigate into the project folder:
+```bash
+cd climate-crisis-group-project1
+```
+4. Open `index.html` in your browser to explore the side locally 
 
 ---
 
