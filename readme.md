@@ -1,16 +1,8 @@
-
-<!-- 
-Current collaborative document: https://docs.google.com/document/d/1IbhhfHnWjU1w3YhOrd1yh-MNZUyxeljTTAfbcQAYvVg/edit?usp=sharing
-
-Our Logo 
-
-
-
-![logo](assets/logo.png) -->
-
 # 🐾 Biodiversity Helps – A Climate Crisis Awareness Project
 
 Welcome to the **Biodiversity Helps** project! This site was created to raise awareness about the extinction crisis affecting plant and animal species across the globe. It was developed by **Thinzar Htun** and **Samantha Chombo-Rodriguez** as part of a climate change awareness initiative.
+
+🌐 **View the live site here**: [https://glistening-strudel-23219a.netlify.app](https://glistening-strudel-23219a.netlify.app)
 
 ---
 
